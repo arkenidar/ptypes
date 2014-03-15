@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PTypes_Lib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output="Release/ptypes" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_LIB" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="../include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../include" />
+				</ResourceCompiler>
+				<ExtraCommands>
+					<Add after="mkdir          ..\lib\&#x0D;&#x0A;copy           Release\ptypes.lib           ..\lib\&#x0D;&#x0A;" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="Debug/ptypes" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_LIB" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="../include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../include" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="../LICENSE" />
+		<Unit filename="../include/pasync.h" />
+		<Unit filename="../include/pinet.h" />
+		<Unit filename="../include/pport.h" />
+		<Unit filename="../include/pstreams.h" />
+		<Unit filename="../include/ptime.h" />
+		<Unit filename="../include/ptypes.h" />
+		<Unit filename="../src/pasync.cxx" />
+		<Unit filename="../src/patomic.cxx" />
+		<Unit filename="../src/pcomponent.cxx" />
+		<Unit filename="../src/pcset.cxx" />
+		<Unit filename="../src/pcsetdbg.cxx" />
+		<Unit filename="../src/pexcept.cxx" />
+		<Unit filename="../src/pfatal.cxx" />
+		<Unit filename="../src/pfdxstm.cxx" />
+		<Unit filename="../src/pinfile.cxx" />
+		<Unit filename="../src/pinfilter.cxx" />
+		<Unit filename="../src/pinmem.cxx" />
+		<Unit filename="../src/pinstm.cxx" />
+		<Unit filename="../src/pintee.cxx" />
+		<Unit filename="../src/piobase.cxx" />
+		<Unit filename="../src/pipbase.cxx" />
+		<Unit filename="../src/pipmsg.cxx" />
+		<Unit filename="../src/pipmsgsv.cxx" />
+		<Unit filename="../src/pipstm.cxx" />
+		<Unit filename="../src/pipstmsv.cxx" />
+		<Unit filename="../src/pipsvbase.cxx" />
+		<Unit filename="../src/pmd5.cxx" />
+		<Unit filename="../src/pmem.cxx" />
+		<Unit filename="../src/pmsgq.cxx" />
+		<Unit filename="../src/pmtxtable.cxx" />
+		<Unit filename="../src/pnpipe.cxx" />
+		<Unit filename="../src/pnpserver.cxx" />
+		<Unit filename="../src/pobjlist.cxx" />
+		<Unit filename="../src/poutfile.cxx" />
+		<Unit filename="../src/poutfilter.cxx" />
+		<Unit filename="../src/poutmem.cxx" />
+		<Unit filename="../src/poutstm.cxx" />
+		<Unit filename="../src/ppipe.cxx" />
+		<Unit filename="../src/ppodlist.cxx" />
+		<Unit filename="../src/pputf.cxx" />
+		<Unit filename="../src/prwlock.cxx" />
+		<Unit filename="../src/psemaphore.cxx" />
+		<Unit filename="../src/pstdio.cxx" />
+		<Unit filename="../src/pstrcase.cxx" />
+		<Unit filename="../src/pstrconv.cxx" />
+		<Unit filename="../src/pstring.cxx" />
+		<Unit filename="../src/pstrlist.cxx" />
+		<Unit filename="../src/pstrmanip.cxx" />
+		<Unit filename="../src/pstrtoi.cxx" />
+		<Unit filename="../src/pstrutils.cxx" />
+		<Unit filename="../src/ptextmap.cxx" />
+		<Unit filename="../src/pthread.cxx" />
+		<Unit filename="../src/ptime.cxx" />
+		<Unit filename="../src/ptimedsem.cxx" />
+		<Unit filename="../src/ptrigger.cxx" />
+		<Unit filename="../src/punit.cxx" />
+		<Unit filename="../src/punknown.cxx" />
+		<Unit filename="../src/pvariant.cxx" />
+		<Unit filename="../src/pversion.cxx" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
