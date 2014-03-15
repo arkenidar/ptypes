@@ -1,0 +1,182 @@
+# depslib dependency file v1.0
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\clients.cxx
+	<pasync.h>
+	"config.h"
+	"log.h"
+	"clients.h"
+
+1182945948 c:\dev-cpp\ptypes\ptypes-2.1.1\include\pasync.h
+	<windows.h>
+	<pthread.h>
+	<semaphore.h>
+	"pport.h"
+	"ptypes.h"
+
+1182945948 c:\dev-cpp\ptypes\ptypes-2.1.1\include\pport.h
+	<stdint.h>
+	<sys/types.h>
+
+1182945949 c:\dev-cpp\ptypes\ptypes-2.1.1\include\ptypes.h
+	"pport.h"
+	<string.h>
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\config.h
+	<ptypes.h>
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\log.h
+	<ptypes.h>
+	<pinet.h>
+
+1182945948 c:\dev-cpp\ptypes\ptypes-2.1.1\include\pinet.h
+	"pport.h"
+	"ptypes.h"
+	"pstreams.h"
+	<winsock2.h>
+	<netdb.h>
+	<sys/types.h>
+	<sys/socket.h>
+
+1182945949 c:\dev-cpp\ptypes\ptypes-2.1.1\include\pstreams.h
+	"pport.h"
+	"ptypes.h"
+	"pasync.h"
+	<stdarg.h>
+	<errno.h>
+	"windows.h"
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\clients.h
+	<ptime.h>
+	<pasync.h>
+	"request.h"
+
+1182945949 c:\dev-cpp\ptypes\ptypes-2.1.1\include\ptime.h
+	"pport.h"
+	"ptypes.h"
+	<time.h>
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\request.h
+	<ptypes.h>
+	<pstreams.h>
+	<pinet.h>
+	"sysutils.h"
+	"urlutils.h"
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\sysutils.h
+	<unistd.h>
+	<pport.h>
+	<ptypes.h>
+	<ptime.h>
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\urlutils.h
+	<pport.h>
+	<ptypes.h>
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\config.cxx
+	<stdlib.h>
+	<stdio.h>
+	"ptypes.h"
+	"config.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\log.cxx
+	<stdio.h>
+	<stdarg.h>
+	<syslog.h>
+	<ptime.h>
+	<pasync.h>
+	"config.h"
+	"log.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\mimetable.cxx
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\mod_about.cxx
+	"config.h"
+	"utils.h"
+	"request.h"
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\utils.h
+	<ptypes.h>
+	<pstreams.h>
+	<ptime.h>
+	"sysutils.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\mod_file.cxx
+	<limits.h>
+	"config.h"
+	"modules.h"
+	"request.h"
+	"utils.h"
+
+1182945951 c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\modules.h
+	<ptypes.h>
+	"request.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\mod_wstat.cxx
+	"config.h"
+	"utils.h"
+	"request.h"
+	"clients.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\modules.cxx
+	"request.h"
+	"modules.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\request.cxx
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	"config.h"
+	"log.h"
+	"utils.h"
+	"sysutils.h"
+	"request.h"
+	"clients.h"
+	"modules.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\sysutils.cxx
+	<sys/types.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<io.h>
+	<direct.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/utsname.h>
+	<dirent.h>
+	<limits.h>
+	<sys/param.h>
+	<pwd.h>
+	<grp.h>
+	<pport.h>
+	"sysutils.h"
+	"utils.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\urlutils.cxx
+	<stdlib.h>
+	<ptypes.h>
+	<pinet.h>
+	"urlutils.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\utils.cxx
+	<stdlib.h>
+	<stdio.h>
+	<ptypes.h>
+	<ptime.h>
+	"config.h"
+	"sysutils.h"
+	"utils.h"
+	"urlutils.h"
+
+1182945951 source:c:\dev-cpp\ptypes\ptypes-2.1.1\wshare\wshare.cxx
+	<stdlib.h>
+	<limits.h>
+	"config.h"
+	"sysutils.h"
+	"log.h"
+	"utils.h"
+	"urlutils.h"
+	"request.h"
+	"clients.h"
+	"modules.h"
+
